@@ -12,7 +12,7 @@ ${\color{red}主动学习，并且请先尝试自己解决问题，不管是网�
 - Linux基础教程：https://101.ustclug.org/Ch01/ （建议学习）
 - Z-library镜像，找电子书的：https://zlib.by/ （当然也可以自己找翻墙的）
 ### 实操
-- 自己整一个本地的虚拟机，进行环境配置、软件安装
+- 自己整一个本地的虚拟机，进行环境配置、软件安装（VMware里装Ubuntu或者Debian都可以）
 - 如果需要python，建议安装Miniconda并且学会使用：https://blog.csdn.net/ming12131342/article/details/140233867
 - 学会使用Vivado、Modulsim、VCS+Verdi联合仿真等等工具
 ---
