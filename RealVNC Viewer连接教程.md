@@ -8,5 +8,5 @@ ssh -OhostKeyAlgorithms=+ssh zhengc@hzvncs1.pct.bj
 2.随后输入：
 ```bash
 vncserver -geometry 1920x1080 -depth 24
-```**
+```
 3. 记录下生成的端口号，再RealVNC Viewer这个软件中新建连接，VNC Server这一栏中填写：hzvncs1.pct.bj:端口号，随机输入账号密码即可登录
