@@ -4,7 +4,7 @@
 ```bash
 ssh -OhostKeyAlgorithms=+ssh zhengc@hzvncs1.pct.bj
 ``` 
-随后按照提示输入服务器账号密码，进入到服务器
+随后按照提示输入服务器账号密码，进入到服务器  
 2. 进入到服务器后，执行下面的指令
 ```bash
 vncserver -geometry 1920x1080 -depth 24
