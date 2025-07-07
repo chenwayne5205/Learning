@@ -1,11 +1,11 @@
 # RealVNC Viewer使用教程
 ## 以连接比科奇服务器hzvncs1.pct.bj为例,还是建议先安装git
-1. 首先执行  
+1. 首先打开本地terminal
 ```bash
 ssh -OhostKeyAlgorithms=+ssh zhengc@hzvncs1.pct.bj
 ``` 
-随后按照提示输入服务器账号密码，进入到服务器  
-2. 随后执行下面的指令
+随后按照提示输入服务器账号密码，进入到服务器
+2. 进入到服务器后，执行下面的指令
 ```bash
 vncserver -geometry 1920x1080 -depth 24
 ```
