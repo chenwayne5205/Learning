@@ -1,5 +1,5 @@
-# RealVNC Viewer使用教程
-## 以连接比科奇服务器hzvncs1.pct.bj为例,还是建议先安装git
+# RealVNC Viewer使用教程（实验室服务器不需要连接VNC，rdp远程连接即可）
+## 以连接比科奇服务器hzvncs1.pct.bj为例，还是建议先安装git
 - **首先打开本地terminal**
 ```bash
 ssh -OhostKeyAlgorithms=+ssh zhengc@hzvncs1.pct.bj
