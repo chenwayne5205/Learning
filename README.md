@@ -34,6 +34,7 @@ ${\color{red}如果没有连接过，建议去网上先看怎么使用shh或者r
 ---
 
 ## 梯子 VPN
+- 去信息门户下载学校的梯子（以防不时之需）
 - https://fbweb02.flyingbird.la/
 ---
 
