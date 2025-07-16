@@ -1,0 +1,18 @@
+# Yosys 脚本注释以 '#' 开头
+
+# 1. 读取我们的 Verilog 设计文件
+read_verilog full_adder.v
+
+# 2. 执行通用的综合流程
+synth -top full_adder
+
+clean purge
+
+# 3. 将综合后的网表保存为 Verilog 文件
+write_verilog -noattr synth_adder_script.v
+
+# 4. 生成电路图并保存为 PNG 图片，而不是弹出一个窗口
+#    -format 指定格式, -prefix 指定文件名前缀
+show -format png -prefix ./full_adder_schematic
+
+# Yosys 会在执行完所有命令后自动退出
